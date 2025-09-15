@@ -43,8 +43,8 @@ serde = "1.0.219"
 serde_derive = "1.0.219"
 serde_json = "1.0.142"
 sha3 = "0.10.8"
-solana-program = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program", features = ["std"] }
-solana-sdk = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-sdk", features = ["std"] }
+solana-program = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program" }
+solana-sdk = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-sdk" }
 subtle = "2.6.1"
 thiserror = "2.0.14"
 tiny-bip39 = "0.8.2"
