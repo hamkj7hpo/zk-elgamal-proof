@@ -44,12 +44,7 @@ serde_derive = "1.0.219"
 serde_json = "1.0.142"
 sha3 = "0.10.8"
 solana-program = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-program", features = ["std", "bytemuck"] }
-solana-derivation-path = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-derivation-path" }
-solana-keypair = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-keypair" }
-solana-seed-derivable = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-seed-derivable" }
-solana-seed-phrase = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-seed-phrase" }
-solana-signature = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-signature", default-features = false }
-solana-signer = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-signer" }
+solana-sdk = { git = "ssh://git@github.com/hamkj7hpo/solana.git", branch = "safe-pump-compat", package = "solana-sdk", features = ["std", "bytemuck"] }
 subtle = "2.6.1"
 thiserror = "2.0.14"
 tiny-bip39 = "0.8.2"

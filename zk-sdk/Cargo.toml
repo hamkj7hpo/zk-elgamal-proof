@@ -33,11 +33,7 @@ serde = { workspace = true }
 serde_derive = { workspace = true }
 serde_json = { workspace = true }
 sha3 = { workspace = true }
-solana-derivation-path = { workspace = true }
-solana-seed-derivable = { workspace = true }
-solana-seed-phrase = { workspace = true }
-solana-signature = { workspace = true }
-solana-signer = { workspace = true }
+solana-sdk = { workspace = true, features = ["std", "bytemuck"] }
 subtle = { workspace = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
@@ -46,7 +42,7 @@ js-sys = { workspace = true }
 wasm-bindgen = { workspace = true }
 
 [dev-dependencies]
-solana-keypair = { workspace = true }
+solana-sdk = { workspace = true }
 tiny-bip39 = { workspace = true }
 
 [lints]
